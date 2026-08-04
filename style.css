@@ -1,0 +1,10 @@
+.inputan,
+.tombol {
+  margin: 5px;
+  height: 30px;
+  text-align: center;
+}
+
+.tombol:hover {
+  cursor: pointer;
+}
