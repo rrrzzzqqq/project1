@@ -18,13 +18,10 @@ tombolTambah.addEventListener("click", () => {
   inputan.value = "";
 
   tombolMinusPerJadwal.addEventListener("click", () => {
-    if (wadahPerJadwalDanButton.lastElementChild)
-      wadahPerJadwalDanButton.lastElementChild.remove();
-    if (wadahPerJadwalDanButton.lastElementChild)
-      wadahPerJadwalDanButton.lastElementChild.remove();
+    if (wadahPerJadwalDanButton) wadahPerJadwalDanButton.remove();
   });
 });
 
 reset.addEventListener("click", () => {
-  if (wadahJadwal) wadahJadwal.remove();
+  if (wadahJadwal) wadahJadwal.innerHTML = "";
 });
