@@ -20,6 +20,10 @@ tombolTambah.addEventListener("click", () => {
   tombolMinusPerJadwal.addEventListener("click", () => {
     if (wadahPerJadwalDanButton) wadahPerJadwalDanButton.remove();
   });
+
+  wadahPerJadwalDanButton.addEventListener("click", () => {
+    wadahPerJadwalDanButton.classList.toggle("coret");
+  });
 });
 
 reset.addEventListener("click", () => {

@@ -5,7 +5,8 @@ button {
 }
 
 #tombolTambah:hover,
-#reset,
+#reset:hover,
+#coret:hover,
 .tombolMinusPerJadwal:hover {
   cursor: pointer;
   font-size: 18px;
@@ -15,4 +16,10 @@ button {
   display: flex;
   align-items: center;
   margin: 5px;
+  cursor: pointer;
+}
+
+.coret {
+  text-decoration: line-through;
+  color: gray;
 }
