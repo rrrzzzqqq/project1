@@ -29,3 +29,9 @@ tombolTambah.addEventListener("click", () => {
 reset.addEventListener("click", () => {
   if (wadahJadwal) wadahJadwal.innerHTML = "";
 });
+
+inputan.addEventListener("keypress", (enter) => {
+  if (enter.key === "Enter") {
+    tombolTambah.click();
+  }
+});

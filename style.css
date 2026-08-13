@@ -1,3 +1,12 @@
+.wadah {
+  background-color: aquamarine;
+  height: 100%;
+  width: 60%;
+  margin: 50px;
+  padding: 40px;
+  border-radius: 20px;
+}
+
 .inputan,
 button {
   margin: 5px;
