@@ -1,4 +1,12 @@
+html, body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .wadah {
+  justify-content: center;
+  align-items: center;
   background-color: aquamarine;
   height: 100%;
   width: 60%;
@@ -18,20 +26,20 @@ h1{
 .inputan {
   margin: 5px;
   height: 6vh;
-  width: 25vh;
+  width: 55%;
   border-radius: 5px;
   text-align: center;
 }
 
 #tombolTambah {
-  width: 40px;
-  height: 40px;
+  width: 10%;
+  height: 6vh;
   text-align: center;
 }
 
 #reset {
-  width: 55px;
-  height: 40px;
+  width: 20%;
+  height: 6vh;
   text-align: center;
 }
 
